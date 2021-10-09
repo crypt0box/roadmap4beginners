@@ -14,16 +14,16 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <div>
       <nav>
         <Link href="/">
-          <span>Home</span>
+          <span className="mx-4 cursor-pointer">Home</span>
         </Link>
         <Link href="/profile">
-          <span>Profile</span>
+          <span className="mx-4 cursor-pointer">Profile</span>
         </Link>
         <Link href="/protected">
-          <span>Protected route</span>
+          <span className="mx-4 cursor-pointer">Protected route</span>
         </Link>
         <Link href="/protected-client-route">
-          <span>Protected client route</span>
+          <span className="mx-4 cursor-pointer">Protected client route</span>
         </Link>
       </nav>
       <Component {...pageProps} />
