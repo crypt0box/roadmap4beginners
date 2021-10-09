@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "roadmap4beginnersc049529c",
+  "functionName": "roadmap4beginnersc049529cPostConfirmation",
+  "resourceName": "roadmap4beginnersc049529cPostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/Users/cryptobox/.config/yarn/global/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "roadmap4beginnersc049529cPostConfirmation",
+  "skipEdit": true,
+  "GROUP": "Users",
+  "enableCors": false
+}

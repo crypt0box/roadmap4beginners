@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-roadmap4beginners-dev-145945-authRole",
+      "UnauthRoleArn": "arn:aws:iam::313420813484:role/amplify-roadmap4beginners-dev-145945-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::313420813484:role/amplify-roadmap4beginners-dev-145945-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-roadmap4beginners-dev-145945-deployment",
+      "UnauthRoleName": "amplify-roadmap4beginners-dev-145945-unauthRole",
+      "StackName": "amplify-roadmap4beginners-dev-145945",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:313420813484:stack/amplify-roadmap4beginners-dev-145945/212a03c0-28c6-11ec-9a9d-06c3336b4a0d",
+      "AmplifyAppId": "d2atvwq6on2xnh"
+    },
+    "categories": {
+      "function": {
+        "roadmap4beginnersc049529cPostConfirmation": {
+          "GROUP": "Users",
+          "deploymentBucketName": "amplify-roadmap4beginners-dev-145945-deployment",
+          "s3Key": "amplify-builds/roadmap4beginnersc049529cPostConfirmation-4f467476775a32363962-build.zip"
+        }
+      },
+      "auth": {
+        "roadmap4beginnersc049529c": {}
+      }
+    }
+  }
+}
