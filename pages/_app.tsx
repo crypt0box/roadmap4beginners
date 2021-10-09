@@ -1,13 +1,13 @@
-import { AppProps } from 'next/app'
-import '../styles/globals.css'
-import Link from 'next/link'
+import { AppProps } from "next/app";
+import "../styles/globals.css";
+import Link from "next/link";
 
-import Amplify from 'aws-amplify'
-import config from '../src/aws-exports'
+import Amplify from "aws-amplify";
+import config from "../src/aws-exports";
 Amplify.configure({
   ...config,
-  ssr: true
-})
+  ssr: true,
+});
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -19,8 +19,14 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <Link href="/profile">
           <span>Profile</span>
         </Link>
+        <Link href="/protected">
+          <span>Protected route</span>
+        </Link>
+        <Link href="/protected-client-route">
+          <span>Protected client route</span>
+        </Link>
       </nav>
       <Component {...pageProps} />
     </div>
-  )
+  );
 }
