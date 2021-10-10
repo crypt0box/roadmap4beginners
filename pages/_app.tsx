@@ -26,7 +26,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           <span className="mx-4 cursor-pointer">Protected client route</span>
         </Link>
       </nav>
-      <Component {...pageProps} />
+      <main className="my-10">
+        <Component {...pageProps} />
+      </main>
     </div>
   );
 }
